@@ -137,6 +137,13 @@ const addForm = forms['add-book'];
 addForm.addEventListener('submit', function(e){
   e.preventDefault();
 
+//   // clear the text box
+//   const clear = document.querySelector("#add-book button");
+//   clear.addEventListener("click", (e){
+//       const text = document.querySelector("#add-book text");
+//       text = "";
+//   });
+
   // create elements
   const value = addForm.querySelector('input[type="text"]').value;
   const li = document.createElement('li');
